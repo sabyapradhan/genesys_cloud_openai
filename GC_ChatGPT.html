@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get AI Feedback</title>
+  <script type="text/javascript" src="js/openAI.js"></script>
+  <script type="text/javascript" src="js/gc.js"></script>
+
+  <style>
+    .chat-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        <h2>Ask OpenAI</h2>
+        <div id="chat-log"></div>
+        <input type="text" id="myInput" placeholder="Type a question...">
+        <button onclick="askGPT()">Send</button>
+    </div>
+</body>
+</html>
